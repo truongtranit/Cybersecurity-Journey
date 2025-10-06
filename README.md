@@ -14,4 +14,4 @@ This portfolio currently includes:
 
 My objective is to combine my understanding of how applications are built with an attacker's mindset to become a well-rounded security professional. I am actively learning and seeking opportunities to apply my skills in a professional environment.
 
-You can connect with me on [LinkedIn](my-linkedin-url).
+You can connect with me on [LinkedIn](https://www.linkedin.com/in/truongtranit/).
