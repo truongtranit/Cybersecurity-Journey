@@ -6,9 +6,9 @@ This repository is a collection of my notes, projects, and hands-on work as I st
 ## Contents
 This portfolio currently includes:
 
-* **[/CompTIA-Notes](link-to-my-folder):** In-depth study notes for Security+, Network+, and PenTest+.
-* **[/TryHackMe-Writeups](link-to-my-folder):** Step-by-step solutions and my thought process for various TryHackMe rooms.
-* **[/Home-Lab](link-to-my-folder):** Documentation of my virtual lab setup and experiments.
+* **[CompTIA-Notes](./CompTIA-Notes):** In-depth study notes for Security+, Network+, and PenTest+.
+* **[TryHackMe-Writeups](./TryHackMe-Writeups):** Step-by-step solutions and my thought process for various TryHackMe rooms.
+* **[Home-Lab](./Home-Lab):** Documentation of my virtual lab setup and experiments.
 
 ## My Goal
 
