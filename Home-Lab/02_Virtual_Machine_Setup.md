@@ -4,7 +4,7 @@
 
 * **OS Version:** Kali Linux 2025.x
 * **Purpose:** Attacker machine for running scans and exploits.
-* **ESXi Port Group:** `PG-VLAN66-Pentest`
+* **ESXi Port Group:** `PG-VLAN66-PENTEST`
 * **VLAN:** 66
 * **IP Address:** 10.66.1.10 (Static)
 * **Gateway:** 10.66.1.1
@@ -13,7 +13,7 @@
 
 * **OS Version:** Ubuntu 8.04 (Deliberately Vulnerable)
 * **Purpose:** A primary target with numerous known vulnerabilities.
-* **ESXi Port Group:** `PG-VLAN20-Servers`
+* **ESXi Port Group:** `PG-VLAN20-SERVERS`
 * **VLAN:** 20
 * **IP Address:** 10.20.1.20 (Static)
 * **Gateway:** 10.20.1.1
@@ -22,7 +22,7 @@
 
 * **OS Version:** Windows 10 Pro (unpatched, firewall disabled)
 * **Purpose:** To simulate a typical, vulnerable user workstation.
-* **ESXi Port Group:** `PG-VLAN10-Users`
+* **ESXi Port Group:** `PG-VLAN10-USERS`
 * **VLAN:** 10
 * **IP Address:** 10.10.1.30 (Static)
 * **Gateway:** 10.10.1.1
