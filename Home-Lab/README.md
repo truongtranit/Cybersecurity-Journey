@@ -25,3 +25,4 @@ The purpose of this lab is to provide a sandboxed environment for practicing pen
 2.  [Virtual Machine Setup](./02_Virtual_Machine_Setup.md)
 3.  [Networking Configuration](./03_Networking_Configuration.md)
 4.  [Experiments and Write-ups](./Experiments/)
+5.  [Build Log](./Build-Log/)
