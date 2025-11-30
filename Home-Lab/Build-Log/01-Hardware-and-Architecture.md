@@ -18,4 +18,4 @@ I designed a multi-VLAN architecture to simulate a corporate network. The core n
 * **VLAN 66 (Pentest):** An isolated "dirty" network for attacker machines (Kali) and vulnerable targets (Metasploitable).
 * **VLAN 99 (Management):** Out-of-band management for network gear and hypervisor access.
 
-![Desc](./home_lab_diagram.png)
+![Desc](../home_lab_diagram.png)
