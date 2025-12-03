@@ -14,4 +14,5 @@ Today I moved from design to implementation on the physical networking layer. Th
 **Challenge:** Ensuring the trunk encapsulation type was set correctly for older Cisco IOS versions before setting the mode to trunk.
 ![Desc](./show_vlan_brief.png)
 ![Desc](./show_interfaces_trunk.png)
+
 #CiscoIOS #VLANs #Networking #CCNA
