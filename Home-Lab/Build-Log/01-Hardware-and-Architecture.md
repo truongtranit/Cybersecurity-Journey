@@ -19,3 +19,4 @@ I designed a multi-VLAN architecture to simulate a corporate network. The core n
 * **VLAN 99 (Management):** Out-of-band management for network gear and hypervisor access.
 
 ![Desc](./hardware_stack.png)
+#Homelab #Cybersecurity #NetworkDesign #Cisco
