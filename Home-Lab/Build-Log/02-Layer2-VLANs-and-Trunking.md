@@ -12,6 +12,7 @@ Today I moved from design to implementation on the physical networking layer. Th
 * Crucially, I configured **802.1Q trunk ports** on the uplinks between switches and facing the IBM server to carry tagged traffic for multiple VLANs simultaneously.
 
 **Challenge:** Ensuring the trunk encapsulation type was set correctly for older Cisco IOS versions before setting the mode to trunk.
+
 ![Desc](./show_vlan_brief.png)
 ![Desc](./show_interfaces_trunk.png)
 
