@@ -37,7 +37,7 @@ A combination of enterprise-grade physical hardware and industry-standard virtua
 Below is the complete, step-by-step documentation of how this lab was built from scratch, including major troubleshooting hurdles faced along the way.
 
 * **Day 1:** [Architecture Design and Hardware Selection](Build-Log/01-Hardware-and-Architecture.md)
-
+* **Day 2:** [Layer 2 Foundation: VLANs and Trunking](Build-Log/02-Layer2-VLANs-and-Trunking.md)
 ---
 
 ## Future Experiments
