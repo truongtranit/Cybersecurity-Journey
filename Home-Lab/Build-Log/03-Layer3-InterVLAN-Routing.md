@@ -13,6 +13,6 @@ I ran into an immediate issue where I couldn't ping across subnets.
 * *Diagnosis:* I realized I hadn't actually enabled the routing function on the switch globally.
 * *Fix:* Issued the critical command: `ip routing`. Connectivity between VLANs was immediately established.
 
-
+![Desc](./core_running_config.png)
 
 #Layer3Switching #InterVLANRouting #Cisco #NetworkingTroubleshooting
