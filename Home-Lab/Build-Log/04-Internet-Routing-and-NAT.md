@@ -15,5 +15,5 @@ Traffic could now leave, but it couldn't get back. The edge router knew about th
 * *Solution:* Added static routes on the edge router pointing back to the L3 switch for all internal networks.
 
 **Final Step: NAT:** Configured Network Address Translation (NAT) overload (PAT) on the edge router to allow all my internal lab IP addresses to share the single home IP address for internet access.
-
+![Desc](./routing_path.png)
 #NAT #StaticRouting #NetworkEngineering #Troubleshooting
