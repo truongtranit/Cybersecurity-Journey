@@ -40,6 +40,7 @@ Below is the complete, step-by-step documentation of how this lab was built from
 * **Day 2:** [Layer 2 Foundation: VLANs and Trunking](Build-Log/02-Layer2-VLANs-and-Trunking.md)
 * **Day 3:** [Layer 3 Core: Inter-VLAN Routing with SVIs](Build-Log/03-Layer3-InterVLAN-Routing.md)
 * **Day 4:** [Internet Connectivity: Routing and NAT](Build-Log/04-Internet-Routing-and-NAT.md)
+* **Day 5:** [Troubleshooting Challenge: Host-Based Firewalls](Build-Log/05-Troubleshooting-Host-Firewalls.md)
 
 ---
 
