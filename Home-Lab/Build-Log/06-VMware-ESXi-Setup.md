@@ -10,5 +10,5 @@ The critical part was integrating ESXi with my existing Cisco VLAN infrastructur
 * Connected the ESXi host physical NIC to the trunk port configured on the L3 switch.
 * Configured the Management Network to sit on VLAN 99.
 * Created specialized **Port Groups** within the ESXi vSwitch, tagging them with VLAN IDs 10, 20, and 66. This allows me to drop any virtual machine directly into a specific network segment just by changing its settings in the hypervisor.
-
+![Desc](./esxi_networking_page.png)
 #VMware #ESXi #Virtualization #HomelabSetup
