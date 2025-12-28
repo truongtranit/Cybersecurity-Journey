@@ -41,7 +41,8 @@ Below is the complete, step-by-step documentation of how this lab was built from
 * **Day 3:** [Layer 3 Core: Inter-VLAN Routing with SVIs](Build-Log/03-Layer3-InterVLAN-Routing.md)
 * **Day 4:** [Internet Connectivity: Routing and NAT](Build-Log/04-Internet-Routing-and-NAT.md)
 * **Day 5:** [Troubleshooting Challenge: Host-Based Firewalls](Build-Log/05-Troubleshooting-Host-Firewalls.md)
-
+* **Day 6:** [Virtualization Infrastructure: VMware ESXi 8 Setup](Build-Log/06-VMware-ESXi-Setup.md)
+  
 ---
 
 ## Future Experiments
