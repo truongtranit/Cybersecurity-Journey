@@ -42,7 +42,8 @@ Below is the complete, step-by-step documentation of how this lab was built from
 * **Day 4:** [Internet Connectivity: Routing and NAT](Build-Log/04-Internet-Routing-and-NAT.md)
 * **Day 5:** [Troubleshooting Challenge: Host-Based Firewalls](Build-Log/05-Troubleshooting-Host-Firewalls.md)
 * **Day 6:** [Virtualization Infrastructure: VMware ESXi 8 Setup](Build-Log/06-VMware-ESXi-Setup.md)
-  
+* **Day 7:** [Network Security: Segmentation with Cisco ACLs](Build-Log/07-Network-Segmentation-ACLs.md)
+
 ---
 
 ## Future Experiments
