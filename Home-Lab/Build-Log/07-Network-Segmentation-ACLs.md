@@ -15,4 +15,6 @@ I applied this ACL in the **outbound** direction on the `interface Vlan66` SVI (
 
 ![Desc](./acl_configuration.png)
 
+![Desc](./acl_application.png)
+
 #NetworkSecurity #ACL #CiscoSecurity #Segmentation
