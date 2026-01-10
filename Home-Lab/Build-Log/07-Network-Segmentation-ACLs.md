@@ -13,4 +13,6 @@ I wrote an Extended Access Control List (ACL) named `PENTEST_BLOCK` on the Layer
 **Application Strategy:**
 I applied this ACL in the **outbound** direction on the `interface Vlan66` SVI (`ip access-group PENTEST_BLOCK out`). This prevents any traffic *leaving* the Pentest VLAN subnet from entering the rest of the switch's routing engine if it matches the denied criteria.
 
+![Desc](./acl_configuration.png)
+
 #NetworkSecurity #ACL #CiscoSecurity #Segmentation
