@@ -15,37 +15,8 @@ How to get raw network traffic from the physical Cisco switch into a virtual mac
 
 This setup provides a "tap" for the Security Onion VM to sniff live wire traffic.
 
-```mermaid
+![Desc](./flow_of_mirrored_traffic.png)
 
-graph LR
-    %% Define Nodes
-    Sources(Source Traffic\nVLANs 10, 20, 66)
-    
-    Switch(Cisco Switch\nSPAN Session)
-    PhysicalPort[Physical Switch Port\nSPAN Destination\ne.g., Gi0/24]
-    
-    ServerNIC[IBM Server Physical NIC\nESXi Uplink\ne.g., vmnic1]
-    
-    vSwitch(ESXi vSwitch_SPAN\nPromiscuous Mode: ACCEPT)
-    
-    SO_VM[Security Onion VM\nMonitoring Interface]
-
-    %% Define Connections
-    Sources -- 1. Traffic flows normally --> Switch
-    Switch -- "2. SPAN mirrors traffic" --> PhysicalPort
-    
-    %% Use thick line for physical cable
-    PhysicalPort == "3. Physical Ethernet Cable" ==> ServerNIC
-    
-    ServerNIC -- "4. Ingests raw frames" --> vSwitch
-    vSwitch -- "5. Promiscuous mode passes\ntraffic to VM" --> SO_VM
-
-    %% Simple Styling to highlight key areas
-    style PhysicalPort fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-    style vSwitch fill:#ffcdd2,stroke:#e53935,stroke-width:3px,color:black
-    style SO_VM fill:#c8e6c9,stroke:#43a047,stroke-width:2px
-
-```
 
 
 #BlueTeam #SPANPort #NetworkMonitoring #ESXiNetworking
