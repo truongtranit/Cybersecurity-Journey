@@ -14,5 +14,6 @@ With the system stable and time synchronized, I ran an Nmap scan from my Kali ma
 
 The lab is officially live.
 
+![Desc](./security_onion_kibana.png)
 
 #CybersecurityLab #InfoSec #SecurityOnion #Success
