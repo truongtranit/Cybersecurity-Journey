@@ -12,5 +12,7 @@ It required multiple iterations of deep troubleshooting:
 3.  **The Root Cause (Memory):** The breakthrough came when realizing that ElasticSearch (a core component) requires massive memory upfront during initialization. Even with 16GB assigned, ESXi's dynamic allocation was too slow, causing the service to fail and break the entire setup script.
 * *Solution:* I set a strict **16GB Memory Reservation** in ESXi, guaranteeing physical RAM to the VM. The next installation succeeded perfectly.
 
+<img width="802" height="618" alt="esxi_memory_reservation" src="https://github.com/user-attachments/assets/7a580b30-3a49-4d96-ad72-869443d1602d" />
+
 
 #Troubleshooting #LinuxAdmin #SecurityOnion #ElasticSearch
